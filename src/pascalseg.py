@@ -180,8 +180,8 @@ def normalize_readable(name, collapse_adjectives):
     # Long names for short part names that are unexplained in the file.
     decoded_names = dict(
             lfho='left front hoof',
-            rfho='right back hoof',
-            lbho='left front hoof',
+            rfho='right front hoof',
+            lbho='left back hoof',
             rbho='right back hoof',
             fwheel='front wheel',
             bwheel='back wheel',

@@ -592,7 +592,7 @@ def map_in_pool(fn, data, single_process=False, verbose=False):
         print("Caught KeyboardInterrupt, terminating workers")
         pool.terminate()
         raise
-    else:
+    finally:
         pool.close()
         pool.join()
 
